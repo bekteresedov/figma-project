@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500&display=swap");
+@media screen and (max-width: 1245px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .logo h2,
+  header nav ul,
+  #divider,
+  .help,
+  .cards,
+  .start,
+  footer {
+    display: none;
+  }
+  section .new {
+    flex-direction: column;
+    align-items: center;
+  }
+  section .new .new-right {
+    order: -1;
+    width: 100%;
+  }
+  section .new .new-right img,
+  section .new .new-left button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section .new .new-left button {
+    margin-top: 50px;
+  }
+  section .new .new-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #heading {
+    display: inline-block;
+  }
+  section .new .new-left h2,
+  .section .new .new-left p {
+    width: 100%;
+  }
+  section .work-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  header nav .hamburger,
+  .res {
+    display: block;
+  }
+}
