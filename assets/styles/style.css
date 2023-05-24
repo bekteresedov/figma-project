@@ -729,12 +729,13 @@ section {
   font-size: 13px;
   line-height: 24px;
 }
-
+.works {
+  margin-top: 40px;
+}
 .had {
   position: relative;
 }
 #heading {
-  position: absolute;
   top: -40px;
   color: #f0eadd;
   font-size: 18px;
